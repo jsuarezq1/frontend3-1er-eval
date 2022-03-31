@@ -6,7 +6,8 @@ export default class Textos extends Component{
         return(
             //importo el json con un contador
             <>
-                <h1 className='historia'> {data[this.props.contador]}</h1>
+                <h1 className='historia'> {data[this.props.contador].historia}</h1>
+                //this.props.contador
             </>
         )
     }
