@@ -58,7 +58,6 @@ class Design extends Component{
             console.log(contador);
         }
     
-
         render() {
             return(
                 <>
